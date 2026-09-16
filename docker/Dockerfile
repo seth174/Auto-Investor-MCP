@@ -15,6 +15,6 @@ COPY server.py .
 RUN useradd --create-home --uid 10001 appuser
 USER appuser
 
-EXPOSE 8000
+EXPOSE 8001
 
 CMD ["python", "server.py"]
