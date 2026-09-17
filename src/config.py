@@ -25,7 +25,7 @@ class Config:
 
     @property
     def issuer_url(self) -> str:
-        return f"https://{self.auth0_domain}"
+        return f"https://{self.auth0_domain}/"
 
     @property
     def api_base_url(self) -> str:
